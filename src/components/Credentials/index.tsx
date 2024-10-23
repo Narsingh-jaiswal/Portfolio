@@ -66,7 +66,7 @@ const educationSteps: VerticalLinearStepperProps[] = [
 ];
 
 export const Credentials: React.FC = () => {
-    return <Box padding='120px 20px' maxWidth={900} margin={'auto'}>
+    return <Box padding='120px 20px 0px' maxWidth={900} margin={'auto'}>
         <Box maxWidth={700} margin={'auto auto 33px auto'}>
             <CustomTypography style={{
                 color: '#FF0077',
