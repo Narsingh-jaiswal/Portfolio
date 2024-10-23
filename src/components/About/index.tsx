@@ -4,7 +4,7 @@ import { Box } from "@mui/material"
 import { CustomTypography } from "../../shared/components/Typography"
 import { LinearProgressBar } from "../../shared/components/ProgressBar"
 
-import profilePic from '../../assets/profile.JPG'
+import profilePic from '../../assets/profile.jpg'
 
 const Profile: React.FC = () => {
     const profileDescription = 'Experienced Full Stack Engineer proficient in React.JS, Angular, Node.js, and MongoDB. Skilled in developing and integrating GraphQL APIs for optimized data handling. Committed to delivering high-quality, performance-driven solutions.'
