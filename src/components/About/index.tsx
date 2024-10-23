@@ -1,13 +1,16 @@
-import { Box } from "@mui/material"
-import { CustomTypography } from "../../shared/components/Typography"
 import React from "react"
+import { Box } from "@mui/material"
+
+import { CustomTypography } from "../../shared/components/Typography"
 import { LinearProgressBar } from "../../shared/components/ProgressBar"
+
+import profilePic from '../../assets/profile.JPG'
 
 const Profile: React.FC = () => {
     const profileDescription = 'Experienced Full Stack Engineer proficient in React.JS, Angular, Node.js, and MongoDB. Skilled in developing and integrating GraphQL APIs for optimized data handling. Committed to delivering high-quality, performance-driven solutions.'
     return <Box style={{ maxWidth: 700, gap: 50, margin: '39px auto', marginBottom: 28 }} display={'flex'} alignItems={'center'}>
         <Box>
-            <img style={{ height: 87, width: 87, borderRadius: '50%', marginRight: 20 }} src="https://technext.github.io/kards/images/profile-pic.jpg" alt="" />
+            <img style={{ height: 100, width: 100, borderRadius: '50%', marginRight: 20 }} src={profilePic} alt="" />
         </Box>
         <CustomTypography style={{
             color: 'rgb(136, 136, 136)',
@@ -97,7 +100,7 @@ export const About: React.FC = () => {
 
 
     return <Box style={{ backgroundColor: '#FFFFFF', width: '100%' }}>
-        <Box maxWidth={900} margin='auto' padding='112px 20px 114px'>
+        <Box maxWidth={900} margin='auto' padding='112px 20px 114px' display='flex' flexDirection='column' alignItems='center'>
             <CustomTypography style={{
                 color: '#FF0077',
                 fontSize: 16,
