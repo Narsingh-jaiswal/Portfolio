@@ -1,5 +1,5 @@
 :root {
-  font-family: lora, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Poppins, sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,7 +11,7 @@
   text-rendering: optimizeLegibility;
   background-color: #ebebeb;
 
-  font-family: "Lora", serif !important;
+  font-family: Poppins, sans-serif, serif !important;
   font-optical-sizing: auto;
 }
 

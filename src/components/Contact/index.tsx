@@ -26,7 +26,7 @@ export const Contact: React.FC = () => {
             </CustomTypography>
 
             <CustomTypography style={{
-                fontFamily: 'lora-regular, serif',
+                fontFamily: '"Poppins", sans-serif',
                 fontSize: '23px',
                 marginBottom: '28px',
                 color: 'rgba(255, 255, 255, 0.7)',

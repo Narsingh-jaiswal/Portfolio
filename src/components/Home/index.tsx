@@ -41,7 +41,7 @@ export const Home: React.FC = () => {
                     I'm Narsingh Jaiswal
                 </CustomTypography>
                 <Box sx={{ display: 'flex' }}>
-                    <CustomTypography style={{ color: '#FFFFFF', fontSize: '16px', width: '100%', fontFamily: 'Lora' }}>| {skills}</CustomTypography>
+                    <CustomTypography style={{ color: '#FFFFFF', fontSize: '16px', width: '100%', fontFamily: '"Poppins", sans-serif', letterSpacing: '2px' }}>| {skills}</CustomTypography>
                 </Box>
             </Box>
         </Box>

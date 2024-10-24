@@ -40,7 +40,7 @@ export const VerticalLinearStepper: React.FC<VerticalLinearStepperProps> = ({ de
                 <CustomTypography style={{ fontFamily: '"Poppins", sans-serif', fontWeight: '500', color: '#151515' }} >{projectName}</CustomTypography>
                 <CustomTypography style={{
                     color: "#6e6e6e",
-                    fontFamily: '"lora-regular", serif',
+                    fontFamily: '"Poppins", sans-serif',
                     fontSize: "17px",
                     lineHeight: '2rem',
                     fontWeight: 400

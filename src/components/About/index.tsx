@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
             fontSize: '18px',
             textAlign: 'left',
             lineHeight: '1.8',
-            fontFamily: '\'Lora\''
+            fontFamily: '"Poppins", sans-serif'
         }}>{profileDescription}</CustomTypography>
     </Box>
 }
@@ -39,7 +39,7 @@ const ProfileAndSkills: React.FC<ProfileAndSkillsProps> = ({ description, title 
         }} component={'h3'}>{title}</CustomTypography>
         <CustomTypography style={{
             color: 'rgb(110, 110, 110)',
-            fontFamily: 'Lora-regular',
+            fontFamily: '"Poppins", sans-serif',
             lineHeight: 'inherit',
             letterSpacing: 1
         }}>{description}</CustomTypography>

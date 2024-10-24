@@ -89,7 +89,7 @@ export const Credentials: React.FC = () => {
             </CustomTypography>
 
             <CustomTypography style={{
-                fontFamily: 'lora-regular, serif',
+                fontFamily: '"Poppins-bold", sans-serif',
                 fontSize: '23px',
                 marginBottom: '28px',
                 color: 'rgb(125, 125, 125)',
